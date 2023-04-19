@@ -2,9 +2,11 @@ version: 2
 
 sources:
   - name: globalmart
+    description: clone of the source database
     database: raw
     schema: globalmart
     tables:
       - name: customers
       - name: orders
+        description: orders table
       - name: products
